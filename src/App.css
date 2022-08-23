@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+.sunny{
+    background-image: url("../public/images/sun1.jpg");
+    height: 450px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sunny h1{
+    margin-top: 146px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cloudy{
+    background-image: url("../public/images/cloud.jpg");
+    height: 450px;
+    width: 200px ;
+    background-repeat: no-repeat;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cloudy img{
+    width: 150px;
+    height: 110px;
+    margin: 20px 20px
 }
-
-.App-link {
-  color: #61dafb;
+.cloudy h1{
+    color: white;
 }
+.rainy{
+    background-image: url("../public/images/rain.jpg");
+    height: 450px;
+    width: 300px;
+    background-repeat: no-repeat;
+}
+.rainy img{
+    width: 209px;
+    height: 146px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.rainy h1{
+    color: white;
 }
